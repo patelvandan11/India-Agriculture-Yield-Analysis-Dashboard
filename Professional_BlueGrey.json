@@ -1,0 +1,37 @@
+{
+  "name": "Professional Blue-Grey Theme",
+  "dataColors": [
+    "#002B5B",  // Navy blue - Primary Accent
+    "#00C4CC",  // Aqua blue - Secondary
+    "#4E5D6C",  // Slate grey - Secondary
+    "#5DADE2",  // Light Blue for variation
+    "#85929E",  // Neutral Grey
+    "#1ABC9C",  // Teal Accent
+    "#2874A6",  // Deep Blue
+    "#7DCEA0"   // Muted Green
+  ],
+  "background": "#F0F2F5", 
+  "foreground": "#333333", 
+  "tableAccent": "#002B5B",
+  
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{ "color": { "solid": { "color": "#002B5B" } }, "fontSize": 13, "fontFamily": "Segoe UI Semibold" }],
+        "labels": [{ "color": { "solid": { "color": "#4E5D6C" } }, "fontSize": 11 }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#002B5B" } }, "fontSize": 14 }],
+        "categoryLabels": [{ "color": { "solid": { "color": "#4E5D6C" } }, "fontSize": 11 }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [{ "color": { "solid": { "color": "#002B5B" } }, "fontSize": 11 }],
+        "header": [{ "color": { "solid": { "color": "#4E5D6C" } }, "fontSize": 12 }]
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Modern Green Dashboard",
+  "dataColors": [
+    "#1B5E20", "#388E3C", "#4CAF50", "#81C784", "#A5D6A7", "#2E7D32", "#66BB6A", "#C8E6C9"
+  ],
+  "background": "#ECEFE9",
+  "foreground": "#1B5E20",
+  "tableAccent": "#388E3C",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontSize": 13,
+            "bold": true,
+            "fontColor": { "solid": { "color": "#1B5E20" } }
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#D0D7D0" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#1B5E20" } },
+            "fontSize": 14,
+            "bold": true
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#4E5D4E" } },
+            "fontSize": 11
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "radius": 10
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [
+          {
+            "color": { "solid": { "color": "#1B5E20" } },
+            "fontSize": 12
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#ECEFE9" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#C5CEC5" } },
+            "radius": 8
+          }
+        ]
+      }
+    }
+  }
+}

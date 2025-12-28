@@ -1,0 +1,83 @@
+{
+  "name": "Agriculture Theme",
+  "dataColors": [
+    "#4CAF50", "#2196F3", "#FFC107", "#FF9800", "#2E7D32", "#81C784", "#64B5F6", "#9E9E9E"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2E7D32",
+  "tableAccent": "#4CAF50",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontSize": 14,
+            "bold": true,
+            "fontColor": { "solid": { "color": "#2E7D32" } },
+            "alignment": "center"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#2E7D32" } },
+            "fontSize": 12,
+            "bold": true
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#424242" } },
+            "fontSize": 10
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#F5F5F5" } },
+            "transparency": 15
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [
+          {
+            "color": { "solid": { "color": "#424242" } },
+            "fontSize": 12
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#F5F5F5" } },
+            "transparency": 10
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E0E0E0" } }
+          }
+        ]
+      }
+    }
+  }
+}
